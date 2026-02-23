@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+/* hover buttons */
+a.btn-sm:hover {
+    background-color: #8fa03a !important;
+    color: white !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* cards hover */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* hero background image */
+.hero-bg {
+    min-height: 60vh;
+    object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
+/* hero text */
+.hero-text {
+    top: 25%;
+    right: 8%;
+    max-width: 500px;
+    width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 📱 MOBILE RESPONSIVE FIXES */
+@media (max-width: 768px) {
+
+    /* absolute elements become normal */
+    .mobile-static {
+        position: static !important;
+    }
+
+    /* hero text on mobile */
+    .hero-text {
+        position: static !important;
+        padding: 20px;
+        background: white;
+        max-width: 100%;
+    }
+
+    /* search bar full width */
+    .search-box {
+        width: 100% !important;
+    }
+
+    /* reduce big image height */
+    .hero-bg {
+        min-height: 40vh;
+    }
+
+    /* spacing sections */
+    section {
+        /*padding:20px!important;*/
+    }
+}
+.soap-section {
+    padding-top: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .soap-section {
+        padding-top: 30px;
+    }
+}
+/* desktop */
+.soap-img {
+    margin-top: 100px;
+}
+
+/* tablet */
+@media (max-width: 992px) {
+    .soap-img {
+        margin-top: 60px;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .soap-img {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .recent-courses-row .vr {
+        display: none;
+    }
 }
