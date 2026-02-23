@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Muna-Abusamra/assignment2-rreact/static/css/main.a11f7b60.css",
+    "main.js": "/Muna-Abusamra/assignment2-rreact/static/js/main.2a60799d.js",
+    "static/js/453.3b3043c0.chunk.js": "/Muna-Abusamra/assignment2-rreact/static/js/453.3b3043c0.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Muna-Abusamra/assignment2-rreact/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Muna-Abusamra/assignment2-rreact/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/Muna-Abusamra/assignment2-rreact/index.html",
+    "main.a11f7b60.css.map": "/Muna-Abusamra/assignment2-rreact/static/css/main.a11f7b60.css.map",
+    "main.2a60799d.js.map": "/Muna-Abusamra/assignment2-rreact/static/js/main.2a60799d.js.map",
+    "453.3b3043c0.chunk.js.map": "/Muna-Abusamra/assignment2-rreact/static/js/453.3b3043c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a11f7b60.css",
+    "static/js/main.2a60799d.js"
+  ]
+}
