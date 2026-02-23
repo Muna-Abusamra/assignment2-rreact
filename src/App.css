@@ -28,15 +28,15 @@ a.btn-sm:hover {
     width: 90%;
 }
 
-/* 📱 MOBILE RESPONSIVE FIXES */
+/*  MOBILE RESPONSIVE FIXES */
 @media (max-width: 768px) {
 
-    /* absolute elements become normal */
+    
     .mobile-static {
         position: static !important;
     }
 
-    /* hero text on mobile */
+   
     .hero-text {
         position: static !important;
         padding: 20px;
@@ -44,17 +44,17 @@ a.btn-sm:hover {
         max-width: 100%;
     }
 
-    /* search bar full width */
+    
     .search-box {
         width: 100% !important;
     }
 
-    /* reduce big image height */
+    
     .hero-bg {
         min-height: 40vh;
     }
 
-    /* spacing sections */
+    
     section {
         /*padding:20px!important;*/
     }
